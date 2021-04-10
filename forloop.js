@@ -1,5 +1,5 @@
 
 
-for(var i = 10; i > 0; i--){
-    console.log("Good Bye, World!")
+for(var i = 20; i > 0; i--){
+    console.log("Hello, World!")
 }
