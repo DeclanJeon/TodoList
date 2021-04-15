@@ -1,0 +1,36 @@
+body {
+    margin: 0;
+    background:#748ffc;
+}
+.container {
+    margin-top: 280px;
+    text-align: center;
+}
+h1{
+    font-size: 70px;
+}
+.inputs {
+    border-radius: 25px;
+    border-width: 0;
+    box-sizing: border-box;
+    width: 250px;
+    height: 35px;
+    padding-left: 20px;
+    font-size: 100
+}
+.js-ul {
+    display: inline-block;
+} 
+li {
+    margin: 17px;
+    font-size: 25px;
+}
+button {
+float: right;
+padding-left: 10px;
+border: none;
+background: none;
+padding-left: 50px;
+}
+
+
