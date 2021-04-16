@@ -46,7 +46,7 @@ delBtn.addEventListener('click', deletTodo)
     saveTODOS()
 }
 
-// localStorage에 저장
+// localStorage SET
 function saveTODOS() {
     localStorage.setItem(USER, JSON.stringify(TODOS))
 }
@@ -60,8 +60,8 @@ function submitHandle(e) {
     input.value = ''
  }
 
-// localStorage에서 get해서 반환
-function loadName() {
+// localStorage GET
+function loadTODOS() {
     const LoadTODO = localStorage.getItem(USER); 
 if (LoadTODO !== null) {
  const parseTODOS = JSON.parse(LoadTODO)
@@ -73,7 +73,7 @@ parseTODOS.forEach(todo => {
 }
 
 function init() {
-    loadName()
+    loadTODOS()
 form.addEventListener('submit', submitHandle)
 }
 
